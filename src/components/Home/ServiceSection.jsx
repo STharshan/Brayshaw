@@ -13,17 +13,15 @@ const services = [
     path: "/services/mechanical",
   },
   {
-    title: "Paint Correction",
-    desc: `Polish out swirls and imperfections for a deep mirror gloss.
-
-
-​`,
+    title: "Paint Protection",
+    desc: `Protects your vehicle’s paint from scratches, fading, and environmental damage while maintaining a glossy finish.​`,
     image: "/gray.avif",
     path: "/services/service",
   },
   {
-    title: "Ceramic Coatings:",
-    desc: `A durable protective layer that enhances gloss while protecting paint from dirt, UV rays, and chemical damage.`,
+    title: "Glass Protection",
+    desc: `
+Creates a water-repellent barrier that improves visibility and protects glass from stains and minor damage.`,
     image: "/carmechanic.avif",
     path: "/services/mot",
   },
@@ -143,7 +141,7 @@ const ServiceSection = () => {
                 key={index}
                 className="relative min-w-[300px] md:min-w-[400px] h-[520px] rounded-lg shadow-lg border-primary border
               overflow-hidden group
-             hover:scale-105 active:scale-105 bg-black/80 hover:shadow-primary hover:border-primary/80  transition-all duration-300"
+             hover:scale-105 active:scale-105 bg-black/105 hover:shadow-primary hover:border-primary/80  transition-all duration-300"
                 data-aos="fade-up"
                 data-aos-delay={index * 150} // staggered animation for each card
               >
